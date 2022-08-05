@@ -13,13 +13,18 @@
     width: 101px;
     overflow: hidden;
 } */
-.bg-color{
+.headers {
+    background: hsl(125, 77%, 14%);
+}
+
+.bg-color {
     background-color: #781d1d;
 }
+
 .nn {
     position: sticky;
     top: 0;
-    background-color: transparent;
+    background-color: transparent !important;
     z-index: 999;
     margin-top: 0;
     padding-top: 9px;
@@ -56,7 +61,7 @@
     overflow: hidden;
 } */
 
-.logo{
+.logo {
     cursor: pointer;
     display: flex;
     /* margin-top: 21px; */
@@ -66,7 +71,19 @@
     overflow: hidden;
     margin-top: -36px;
 }
+
 .logo img {
+    height: 26px;
+}
+
+.deactive {
+    height: 57px;
+    width: 70px;
+    overflow: hidden;
+    margin-top: -36px;
+}
+
+.deactive img {
     height: 26px;
 }
 
@@ -164,4 +181,77 @@ ul li .global {
 
 .bli {
     margin-top: -6px;
+}
+
+.slider {
+    margin-top: -99px;
+}
+
+.slider .carousel-indicators {
+    display: none;
+}
+
+.slider .carousel-control-next {
+    display: none;
+}
+
+.slider .carousel-control-prev {
+    display: none;
+}
+
+.hn {
+    position: absolute;
+    top: 100px;
+    width: 55%;
+    margin-left: 30px;
+    font-size: 53px;
+    font-weight: 600;
+    color: white;
+}
+
+.hn i {
+    font-size: 55px;
+    font-style: italic;
+}
+
+.hn Form .mr-lg-O {
+    padding-left: 40px;
+    width: 75%;
+    height: 50px;
+    border-right: 0px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.hn Form .btnn {
+    background-color: rgb(13, 150, 81);
+    color: white;
+    height: 50px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 0px 16px;
+    border-radius: 0px 4px 4px 0;
+}
+
+.hn Form img {
+    position: absolute;
+    margin-top: 4px;
+    width: 22px;
+    margin-left: 9px;
+}
+
+.hn .populer {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.hn .chip {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 9px;
 }
