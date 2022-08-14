@@ -54,7 +54,7 @@ export const UserHeaders = () => {
                     </a>
                 </li>
                 <li>
-              <a href="/user/header">
+              <a href="/user/">
                 <img
                   width="30px"
                   hight="30px"
