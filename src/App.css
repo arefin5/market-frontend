@@ -213,13 +213,15 @@ ul li .global {
     font-size: 55px;
     font-style: italic;
 }
-.logonForm{
+
+.logonForm {
     padding-left: 40px;
     width: 75%;
     height: 50px;
     border-right: 0px;
     border-radius: 4px 0px 0px 4px;
 }
+
 .hn Form .mr-lg-O {
     padding-left: 40px;
     width: 75%;
@@ -263,22 +265,51 @@ ul li .global {
 }
 
 
-.userMenu{
+.userMenu {
     background-color: white;
-     width:100%;
-      height: 80px;
-       border-bottom: solid 1px #e4e5e7;
-       /* overflow: hidden; */
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px #e4e5e7;
+    /* overflow: hidden; */
 }
-    .userMenu ul{
+
+.userMenu ul {
     padding: 10px;
-    }
-    .userMenu ul li {
+}
+
+.userMenu ul li {
     margin-top: 15px;
-    }
-    userMenu ul li a{
-         color: #8c8e95; 
-         font-weight: 600;
-          font-size: 16px;
-           font-family: Arial, Helvetica, sans-serif;
-    }
+}
+
+userMenu ul li a {
+    color: #8c8e95;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userdetail {
+    font-weight: 700;
+    padding: 20px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+.userdetail img {
+    border-radius: 50%;
+}
+
+.userdetail .userinfo {
+    background-color: white;
+    line-height: 40px;
+    width: 27%;
+    padding: 10px;
+}
+userdetail .userinfo .line {
+    width: 100%;
+ height: 1px;
+ background-color: #e7e8e9;
+}
+.creatgig{
+    margin-top: 10px;
+}
