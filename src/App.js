@@ -6,6 +6,9 @@ import Join from './pages/Join';
 import User from './pages/User';
 import Gigs from './pages/Gigs';
 import Creategigs from './pages/CreateGigs';
+import Creategig2 from './pages/CreateGig2';
+import Buyer from './pages/Buyer';
+
 function App() {
   return (
     <Router>
@@ -16,6 +19,8 @@ function App() {
         <Route exact path="/user/" component={User} />
         <Route exact path="/user/gigs" component={Gigs} />
         <Route exact path="/create-gigs" component={Creategigs} />
+        <Route exact path="/create-gigs/price" component={Creategig2} />
+        <Route exact path="/buyer" component={Buyer} />
       </div>
       </Switch>
     </Router>

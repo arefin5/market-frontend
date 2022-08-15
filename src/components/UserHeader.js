@@ -29,7 +29,7 @@ export const UserHeaders = () => {
               <a href="/">Order</a>
             </li>
             <li>
-              <a href="/">Gigs</a>
+              <a href="/user/gigs">Gigs</a>
             </li>
             <li>
               <a href="/">Analytics</a>

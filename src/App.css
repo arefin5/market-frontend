@@ -305,11 +305,57 @@ userMenu ul li a {
     width: 27%;
     padding: 10px;
 }
+
 userdetail .userinfo .line {
     width: 100%;
- height: 1px;
- background-color: #e7e8e9;
+    height: 1px;
+    background-color: #e7e8e9;
 }
-.creatgig{
+
+.creatgig {
     margin-top: 10px;
 }
+
+.mainnnnn {
+    width: 100%;
+    overflow: hidden;
+}
+
+.creatgigs {
+    margin-top: 50px;
+    line-height: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.bnm {
+    margin-top: 13px;
+}
+
+.tworowborder {
+    border-style: groove;
+    border-color: darkgray;
+    border-width: 1px;
+}
+
+.borderonerow {
+    border-right: groove;
+    border-color: darkgray;
+    border-width: 1px;
+    left: 10px;
+}
+
+.radiobtn {
+    line-height: 30px;
+}
+.gig2 { margin-top: 30px; width: 60%;
+}
+    .gig2line { background-color:darkgray ;
+         height: 1px;
+    }
+    .gig2 h5 {
+    margin-top: 17px;
+    }.gig2 .hkl {
+    text-align: center;
+    }
