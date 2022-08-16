@@ -8,6 +8,7 @@ import Gigs from './pages/Gigs';
 import Creategigs from './pages/CreateGigs';
 import Creategig2 from './pages/CreateGig2';
 import Buyer from './pages/Buyer';
+import PostJob from './pages/PostJob';
 import MyPost from './pages/MyPost';
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
         <Route exact path="/create-gigs" component={Creategigs} />
         <Route exact path="/create-gigs/price" component={Creategig2} />
         <Route exact path="/buyer" component={Buyer} />
-        <Route exact path="/post-request" component={MyPost} />
+        <Route exact path="/post-request" component={PostJob} />
+        <Route exact path="/mypost" component={MyPost} />
+
       </div>
       </Switch>
     </Router>
