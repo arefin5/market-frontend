@@ -24,11 +24,9 @@ function App() {
         <Route exact path="/buyer" component={Buyer} />
         <Route exact path="/post-request" component={PostJob} />
         <Route exact path="/mypost" component={MyPost} />
-
       </div>
       </Switch>
     </Router>
   );
 }
-
 export default App;
